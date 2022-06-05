@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="div">
+    <div class="Reg">
+        <h2>Registration </h2>
+        <form>
+          <fieldset>
+            <legend><strong>Kindly Fill in your details</strong></legend>
+          <label for="firstname">First Name:</label><br>
+          <input type="text" id="firstname" name="firstname" required><br>
+         <label for="lastname">Last Name:</label><br>
+          <input type="text" id="lastname" name="lastname" required><br>
+          <label for="tel">Enter your Telephone Number:</label> <br>
+          <input type="tel" id="tel" name="tel" placeholder="+234-7089200440"><br>
+          <label for="gender">Gender</label><br>
+          <input list="gender" name="gender" ><br>
+          <datalist id="gender">
+            <option value="Male">
+              <option value="female">
+          </datalist> 
+          <label for="country">Country</label><br>
+          <input type="country" id="country" name="country" required><br>
+          <label for="state">State</label><br>
+          <input type="text" id="state" name="state"><br>
+          <label for="username">Password:</label><br>
+          <input type="password" id="username" name="username" required><br>
+          <label for="confirmpass">Confirm Password:</label><br>
+          <input type="password" id="confirmpass" name="confirmpass"> <br><br>
+          <input type="Submit" value="Submit">
+        </fieldset>
+        </form>
+        </div>
+    </div>
+    <footer>
+        <div class="return"><button><a href="./index.html">Return Home</a></button></div>
+        </footer>
+</body>
+</html>
